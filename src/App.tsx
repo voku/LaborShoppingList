@@ -224,6 +224,21 @@ export default function App() {
         </div>
 
       </main>
+
+      {/* Footer */}
+      <footer className="max-w-3xl mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center">
+        <p className="text-xs text-stone-400">
+          Open Source auf{' '}
+          <a
+            href="https://github.com/voku/LaborShoppingList"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-500 hover:text-indigo-700 underline underline-offset-2"
+          >
+            GitHub
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
